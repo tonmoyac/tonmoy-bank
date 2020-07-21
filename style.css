@@ -1,0 +1,59 @@
+body{
+    padding:8% 7% 0% 7%;
+}
+h1{
+    font-weight: 700px;
+}
+.submit-area{
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    padding:40px;
+}
+#tansaction-area{
+    display: none;
+}
+.status{
+    color: white;
+    margin: 0% 5%;
+    padding: 5%;
+    border-radius: 10px;
+}
+.deposit{
+    background-color: slateblue;;
+}
+.withdraw{
+    background-color: lightsalmon;
+}
+.balance{
+    background-color: orange;
+}
+
+
+@media only screen and (max-width: 500px){
+    #login-area h1{
+        font-size: 25px;
+        margin: 40px 0px;
+    }
+    .status{
+        margin:10px -10px;
+        padding:6%;
+        border-radius:5px;
+    }
+   .status h5{
+       font-size: 12px;
+
+   } 
+   .status h2 {
+       font-size: 20px;
+   }
+.submit-area{
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px gray;
+    padding:10px;
+}
+.submit-area h4{
+    font-size: 15px;
+}
+}
